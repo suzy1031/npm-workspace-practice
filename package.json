@@ -1,0 +1,20 @@
+{
+  "name": "@monorepo-project/root",
+  "description": "モノレポのサンプルプロジェクトです",
+  "private": true,
+  "workspaces": [
+    "packages/common",
+    "packages/backend",
+    "packages/frontend"
+  ],
+  "scripts": {
+    "prepare": "npm run compile",
+    "compile": "tsc -b tsconfig.build.json",
+    "compile:watch": "tsc -b tsconfig.build.json --watch",
+    "start:dev:api": "npm run start:dev -w @monorepo-project/backend",
+    "start:app": "npm run start -w @monorepo-project/frontend"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
+  }
+}
