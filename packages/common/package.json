@@ -1,0 +1,20 @@
+{
+  "name": "@monorepo-project/common",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzy1031/npm-workspace-practice.git"
+  },
+  "author": "author <author@example.comm> (https://example.com/)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/suzy1031/npm-workspace-practice/issues"
+  },
+  "homepage": "https://github.com/suzy1031/npm-workspace-practice#readme"
+}
